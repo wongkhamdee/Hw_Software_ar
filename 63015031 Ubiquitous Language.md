@@ -1,5 +1,5 @@
-# Hw_Software_ar 63015031 Jetsada Wongkhamdee
-
+# Hw_Software_ar 
+# 63015031 Jetsada Wongkhamdee
 ### *1. Education*
 
 | ข้อ | ศัพท์ | ความหมาย | 
