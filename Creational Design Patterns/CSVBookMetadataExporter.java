@@ -19,7 +19,6 @@ public class CSVBookMetadataExporter extends BookMetadataExporter{
             for (String s : text){
                 printer.printRecord(s.split(","));
             }
-
         } catch (IOException ex) {
             ex.printStackTrace();
         }

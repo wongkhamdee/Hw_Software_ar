@@ -35,6 +35,7 @@ public class XMLBookMetadataFormatter implements BookMetadataFormatter {
         }
         return this;
     }
+
     @Override
     public BookMetadataFormatter append(Book b) {
         Element e;

@@ -9,7 +9,6 @@ import java.io.UnsupportedEncodingException;
 public class Main {
 
     public static void main(String[] args) throws XMLStreamException, IOException {
-
         BookMetadataExporter exporter = new JSONBookMetadataExporter();
         exporter.add(TestData.sailboatBook);
         exporter.add(TestData.GoFBook);

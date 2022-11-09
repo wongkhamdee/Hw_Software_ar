@@ -11,12 +11,14 @@ public class JSONBookMetadataFormatter implements BookMetadataFormatter {
     }
     @Override
     public BookMetadataFormatter reset() {
+    	 // Please implement this method. You may create additional methods as you see fit.
         arr = new JSONArray();
         return this;
     }
 
     @Override
     public BookMetadataFormatter append(Book b) {
+    	// Please implement this method. You may create additional methods as you see fit.
         JSONObject obj = new JSONObject();
         obj.put("ISBN",b.getISBN());
         obj.put("Title",b.getTitle());
@@ -37,6 +39,7 @@ public class JSONBookMetadataFormatter implements BookMetadataFormatter {
 
     @Override
     public String getMetadataString() {
+    	// Please implement this method. You may create additional methods as you see fit.
         return arr.toString();
     }
 
